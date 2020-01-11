@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/style/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Flyight</title>
+</head>
+<body>
+    
+ 
+        <!-- whole content -->
+    <div class="main_view">
+        <div>
+        <!-- Side panel -->
+            <aside>
+                <div class="adise_logo">
+                    <div class="logo"><img src="./image/images/logo/e76427fc-9a66-4e2c-8d8b-3fa9498b9161_200x200.png"></div>
+                </div>
+                <div class="aside_card">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Loty
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <h3>Wybór biletów</h3>
+                                <div class="card-body-indicator">
+                                    <h2 class="mb-0">
+                                        0.00$
+                                    </h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Pasażerowie
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <h3>Ilość biletów</h3>
+                                <div class="card-body-indicator">
+                                    <h2 class="mb-0">
+                                        0
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Miejsca
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <h3>Wybór miejsca</h3>
+                                <div class="card-body-indicator">
+                                    <h2 class="mb-0">
+                                        0
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Usługi
+                                </button>
+                            </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <h3>Usługi dodatkowe</h3>
+                                <div class="card-body-indicator">
+                                    <h2 class="mb-0">
+                                        0
+                                    </h2>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Płatności
+                                </button>
+                            </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <h3>Anim pariatur cliche reprehenderit</h3>
+                                <div class="card-body-indicator">
+                                    <h2 class="mb-0">
+                                        0.00$
+                                    </h2>
+                                </div>
+                            </div>
+                   
+                            </div>
+                        </div>
+                        <!-- Sum  -->
+                        <div class="card">
+                            <div class="card-header card-header-sum-price" id="#">
+                                <div class="card-header-sum">
+                                    <h2 class="mb-0">
+                                        Suma
+                                    </h2>
+                                </div>
+                                <div class="card-header-price">
+                                    <h2 class="mb-0">
+                                        0.00$
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Sum end  -->
+                    </div>
+                </div>
+            </aside>
+        </div>
+        <div class="main_background">
+        <!-- Loty-->
+            <div class="column">
+                    <div class="col-12 d-flex justify-content-center zero">
+                        <div class="flight">
+                            <div class="col-12 d-flex justify-content-center flight-selector-to">
+                                <div class="row">
+                                    <div class="flight_cards">
+                                     
+                                        <div class="col-12 flight-selector_top">
+                                            <div class="flight-selector_top-icon">
+                                                <img class="flight-selector_top-icon-to" src="./image/images/icons/black-plane.svg" alt="">
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-center flight-selector_top-header">
+                                                <h1>Wrocław</h1>
+                                                <img src="https://image.flaticon.com/icons/svg/109/109617.svg" width="224" height="224" alt="Right Arrow free icon" title="Right Arrow free icon">
+                                                <h1>Berlin</h1>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 flight-selector_middle">
+                                            <a href="#" onclick="plusDivs(+1)" class="control_next">>></a>
+                                            <a href="#" onclick="plusDivs(-1)" class="control_prev"><<</a>
+                                            <div class="flight-selector_middle-content">
+                                                <div class="flight-selector_middle-list">
+                                                    <ul>
+                                                        <li>
+                                                            <span>Pon, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>WT, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>ŚRd, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>czw, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>pt, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>sob, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>ndz, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Pon, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>wt, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>śrd, 1 MAR</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 flight-selector_bottom">
+                                            <div class="flight-selector_bottom-time">
+                                                <span>13:20</span>
+                                            </div>
+                                            <div class="flight-selector_bottom-icons">
+                                                <img class="flight-selector_bottom-icons-minus" src="./image/images/icons/bottom-ticket/minus-symbol.svg" alt="">
+                                                <img class="flight-selector_bottom-icons-airplane" src="./image/images/icons/bottom-ticket/airliner.svg" alt="">
+                                                <img class="flight-selector_bottom-icons-arrow" src="./image/images/icons/bottom-ticket/right-arrow.svg" alt="">
+                                            </div>
+                                            <div class="flight-selector_bottom-time">
+                                                <span>14:20</span>
+                                       
+                                            </div>
+                                            <div class="flight-selector_bottom-btn">
+                                                <button class="btn btn-primary">Pokaż bilety</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-center flight-selector_ticket">
+                                            <div class="flight-selector_ticket-class">
+                                                <div class="flight-selector_ticket-class-header flight-selector_ticket-class-header-plus">
+                                                    <h2>Plus</h2>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-list">
+                                                    <ul>
+                                                        <li>Bezpłatny bagaż podręczny (40 x 30 x 20 cm) w kabinie, umieszczony pod fotelem</li>
+                                                        <li>Podręczna walizka na kółkach (55 x 40 x 23 cm) w kabinie</li>
+                                                        <li>32-kg bagaż rejestrowany</li>
+                                                        <li>Bezpłatny wybór miejsc, w tym miejsc w pierwszym rzędzie oraz miejsc z dodatkową przestrzenią na nog</li>
+                                                        <li>Pierwszeństwo wejścia na pokład</li>
+                                                        <li>Priority check-in</li>
+                                                        <li>Airlines Flex</li>
+                                                        <li>Odprawa online do 30 dni przed wylotem</li>
+                                                        <li>Bezpłatna odprawa na lotnisku i online</li>
+                                                        <li>informacje o locie.</li>
+                                                        <li>Zwrot na konto Airlines</li>
+                                                        <li>Automatyczna odprawa</li>
+                                                    </ul>
+                     
+                                                </div>
+                                                <div class="flight-selector_ticket-class-price flight-selector_ticket-class-header-plus">
+                                                    <h2>100 $</h2>
+                                                </div>
+                                            </div>
+                                            <div class="flight-selector_ticket-class">
+                                                <div class="flight-selector_ticket-class-header flight-selector_ticket-class-header-go">
+                                                    <h2>Go</h2>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-list">
+                                                    <ul>
+                                                        <li>Bezpłatny bagaż podręczny (40 x 30 x 20 cm) w kabinie, umieszczony pod fotelem</li>
+                                                        <li>Podręczna walizka na kółkach (55 x 40 x 23 cm) w kabinie</li>
+                                                        <li>32-kg bagaż rejestrowany</li>
+                                                        <li>Bezpłatny wybór miejsc, w tym miejsc w pierwszym rzędzie oraz miejsc z dodatkową przestrzenią na nog</li>
+                                                        <li>Pierwszeństwo wejścia na pokład</li>
+                                                        <li>Priority check-in</li>
+                                                        <li>Airlines Flex</li>
+                                                        <li>Odprawa online do 30 dni przed wylotem</li>
+                                                        <li>Bezpłatna odprawa na lotnisku i online</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-price flight-selector_ticket-class-header-go">
+                                                    <h2>50 $</h2>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="flight-selector_ticket-class">
+                                                <div class="flight-selector_ticket-class-header flight-selector_ticket-class-header-basic">
+                                                    <h2>Basic</h2>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-list">
+                                                    <ul>
+                                                        <li>Bezpłatny bagaż podręczny (40 x 30 x 20 cm) w kabinie, umieszczony pod fotelem</li>
+                                                        <li>Podręczna walizka na kółkach (55 x 40 x 23 cm) w kabinie</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-price flight-selector_ticket-class-header-basic">
+                                                    <h2>25 $</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center flight-selector-from">
+                                <div class="row">
+                                    <div class="flight_cards">
+                                        <div class="col-12 flight-selector_top">
+                                            <div class="flight-selector_top-icon">
+                                                <img class="flight-selector_top-icon-from" src="./image/images/icons/black-plane.svg" alt="">
+                                            </div>
+                                            <div class="col-6 d-flex justify-content-center flight-selector_top-header">
+                                                <h1>Wrocław</h1>
+                                                <img src="https://image.flaticon.com/icons/svg/109/109617.svg" width="224" height="224" alt="Left Arrow free icon" title="Left Arrow free icon">
+                                                <h1>Berlin</h1>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 flight-selector_middle">
+                                            <a href="#" onclick="plusDivs(+1)" class="control_next">>></a>
+                                            <a href="#" onclick="plusDivs(-1)" class="control_prev"><<</a>
+                                            <div class="flight-selector_middle-content">
+                                                <div class="flight-selector_middle-list">
+                                                    <ul>
+                                                        <li>
+                                                            <span>Pon, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>WT, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>ŚRd, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>czw, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>pt, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>sob, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>ndz, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Pon, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>wt, 1 MAR</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>śrd, 1 MAR</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 flight-selector_bottom">
+                                            <div class="flight-selector_bottom-time">
+                                                <span>13:20</span>
+                                            </div>
+                                            <div class="flight-selector_bottom-icons">
+                                                <img class="flight-selector_bottom-icons-minus" src="./image/images/icons/bottom-ticket/minus-symbol.svg" alt="">
+                                                <img class="flight-selector_bottom-icons-airplane" src="./image/images/icons/bottom-ticket/airliner.svg" alt="">
+                                                <img class="flight-selector_bottom-icons-arrow" src="./image/images/icons/bottom-ticket/right-arrow.svg" alt="">
+                                            </div>
+                                            <div class="flight-selector_bottom-time">
+                                                <span>14:20</span>
+                                       
+                                            </div>
+                                            <div class="flight-selector_bottom-btn">
+                                                <button class="btn btn-primary">Pokaż bilety</button>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-center flight-selector_ticket">
+                                            <div class="col-4 flight-selector_ticket-class">
+                                                <div class="flight-selector_ticket-class-header flight-selector_ticket-class-header-plus">
+                                                    <h2>Plus</h2>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-list">
+                                                    <ul>
+                                                        <li>Bezpłatny bagaż podręczny (40 x 30 x 20 cm) w kabinie, umieszczony pod fotelem</li>
+                                                        <li>Podręczna walizka na kółkach (55 x 40 x 23 cm) w kabinie</li>
+                                                        <li>32-kg bagaż rejestrowany</li>
+                                                        <li>Bezpłatny wybór miejsc, w tym miejsc w pierwszym rzędzie oraz miejsc z dodatkową przestrzenią na nog</li>
+                                                        <li>Pierwszeństwo wejścia na pokład</li>
+                                                        <li>Priority check-in</li>
+                                                        <li>Airlines Flex</li>
+                                                        <li>Odprawa online do 30 dni przed wylotem</li>
+                                                        <li>Bezpłatna odprawa na lotnisku i online</li>
+                                                        <li>informacje o locie.</li>
+                                                        <li>Zwrot na konto Airlines</li>
+                                                        <li>Automatyczna odprawa</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-price flight-selector_ticket-class-header-plus">
+                                                    <h2>100 $</h2>
+                                                </div>
+                                            </div>
+                                            <div class="flight-selector_ticket-class">
+                                                <div class="flight-selector_ticket-class-header flight-selector_ticket-class-header-go">
+                                                    <h2>Go</h2>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-list">
+                                                    <ul>
+                                                        <li>Bezpłatny bagaż podręczny (40 x 30 x 20 cm) w kabinie, umieszczony pod fotelem</li>
+                                                        <li>Podręczna walizka na kółkach (55 x 40 x 23 cm) w kabinie</li>
+                                                        <li>32-kg bagaż rejestrowany</li>
+                                                        <li>Bezpłatny wybór miejsc, w tym miejsc w pierwszym rzędzie oraz miejsc z dodatkową przestrzenią na nog</li>
+                                                        <li>Pierwszeństwo wejścia na pokład</li>
+                                                        <li>Priority check-in</li>
+                                                        <li>Airlines Flex</li>
+                                                        <li>Odprawa online do 30 dni przed wylotem</li>
+                                                        <li>Bezpłatna odprawa na lotnisku i online</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="flight-selector_ticket-class-price flight-selector_ticket-class-header-go">
+                                                    <h2>50 $</h2>
+                                                </div>
+                                            </div>
+                                                <div class="flight-selector_ticket-class">
+                                                    <div class="flight-selector_ticket-class-header flight-selector_ticket-class-header-basic">
+                                                        <h2>Basic</h2>
+                                                    </div>
+                                                    <div class="flight-selector_ticket-class-list">
+                                                        <ul>
+                                                            <li>Bezpłatny bagaż podręczny (40 x 30 x 20 cm) w kabinie, umieszczony pod fotelem</li>
+                                                            <li>Podręczna walizka na kółkach (55 x 40 x 23 cm) w kabinie</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="flight-selector_ticket-class-price flight-selector_ticket-class-header-basic">
+                                                        <h2>25 $</h2>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
+            </div>
+            <!-- Pasarzerowie-->
+                <div class="column">
+                    <div class="col-12 d-flex justify-content-center zero">
+                        <div class="passangers">
+                            <div class="col-12 d-flex justify-content-center passangers-names">
+                                
+                            </div>
+                            <div class=" col-12 d-flex justify-content-center passangers-baggage">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>        
+        
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</html>

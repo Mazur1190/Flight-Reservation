@@ -1,0 +1,48 @@
+body > section,
+body > main {
+
+	p{
+		font-size: 1rem;
+	}
+}
+
+footer#footer{
+	padding-top: 20px;    
+	padding-bottom: 20px; 
+}
+.section_referencje_kontakt-background {
+	    background-image: linear-gradient(rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.6)),
+		url("../images/backgrounds/kontakt/2.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	  	
+}
+.main_oNas__oferta_background {
+	   background-color: black;
+}
+
+#socialMedia-fix {
+	position: fixed;
+	top: 200px;
+	right: -15px;
+
+	.fixedFb,
+	.fixedIn {
+		height: 50px;
+		width: 50px;
+		position: relative;
+		left: 0;
+		// @include transition(.3s);
+
+		&:hover {
+			left: -10px;
+			// @include opacity;
+		}
+	}
+}
+
+.main_background{
+    padding-left: 314px;
+    background-color:$flight-background;
+    height: 100%;
+}
